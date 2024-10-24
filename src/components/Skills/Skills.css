@@ -1,0 +1,19 @@
+.skills__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 10px; /* Rounded corners */
+  background-color: var(--clr-bg-alt); /* Background color */
+  padding: 1em; /* Padding for better spacing */
+}
+
+.skills__list-item {
+  margin: 0.5em;
+  background-color: var(--clr-primary); /* Background color for items */
+  color: var(--clr-fg); /* Text color */
+  padding: 0.5em; /* Padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+}
